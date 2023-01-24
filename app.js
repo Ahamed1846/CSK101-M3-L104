@@ -18,7 +18,6 @@ function createPop() {
   // Progression 4: return a function (can be anonymous).
   var anon = function () {
     [currIndex, check] = find(itemToSearch);
-    check == true;
     if (check) {
       title.innerText = `The item is present and is at index ${currIndex}`;
     } else {
